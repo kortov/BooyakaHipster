@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "BooyakaHipster",
+    "packageName": "com.kortov.booyaka",
+    "packageFolder": "com/kortov/booyaka",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZWExYmI4ZGYyZjA1NDQxNGI4MTRjNzA0OGUyZTc3M2VjM2FjZjgwOTgyMGU0ZjMxOWU0N2IwYTc5NjJlZWRlYzdmYTExM2YzYTBlYmE2ZGRlMTFlMWFiZTI5MjdlNTBlMjRkNzM3ZDVkNWIxODkyODM0ZWU3ZjNiNWRiOGMzNWY=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "kortov",
+  "repository-name": "BooyakaHipster"
+}
