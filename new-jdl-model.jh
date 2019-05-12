@@ -1,0 +1,13 @@
+
+entity Post {
+	title String,
+    body BLOB,
+    author String
+}
+
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
